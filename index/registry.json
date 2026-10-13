@@ -1,6 +1,102 @@
 {
   "apps": [
     {
+      "app_id": "io.github.yahballon.ps5-nesx",
+      "created": "2026-10-13",
+      "description": "Native PS5 homebrew emulator: PS5 NESX.",
+      "developer": "YAHBALLON",
+      "name": "PS5 NESX",
+      "owner": "Yahballon",
+      "schema_version": "1.0",
+      "source_repo": "https://github.com/Yahballon/PS5NESX",
+      "status": "registered",
+      "title_id": "PPSA99204"
+    },
+    {
+      "app_id": "io.github.yahballon.ps5-snesx",
+      "created": "2026-10-13",
+      "description": "Native PS5 homebrew emulator: PS5 SNESX.",
+      "developer": "YAHBALLON",
+      "name": "PS5 SNESX",
+      "owner": "Yahballon",
+      "schema_version": "1.0",
+      "source_repo": "https://github.com/Yahballon/PS5SNESX",
+      "status": "registered",
+      "title_id": "PPSA99205"
+    },
+    {
+      "app_id": "io.github.yahballon.ps5-n64x",
+      "created": "2026-10-13",
+      "description": "Native PS5 homebrew emulator: PS5 N64X.",
+      "developer": "YAHBALLON",
+      "name": "PS5 N64X",
+      "owner": "Yahballon",
+      "schema_version": "1.0",
+      "source_repo": "https://github.com/Yahballon/PS5N64X",
+      "status": "registered",
+      "title_id": "PPSA99206"
+    },
+    {
+      "app_id": "io.github.yahballon.ps5-gbax",
+      "created": "2026-10-13",
+      "description": "Native PS5 homebrew emulator: PS5 GBAX.",
+      "developer": "YAHBALLON",
+      "name": "PS5 GBAX",
+      "owner": "Yahballon",
+      "schema_version": "1.0",
+      "source_repo": "https://github.com/Yahballon/PS5GBAX",
+      "status": "registered",
+      "title_id": "PPSA99209"
+    },
+    {
+      "app_id": "io.github.yahballon.ps5-gbcx",
+      "created": "2026-10-13",
+      "description": "Native PS5 homebrew emulator: PS5 GBCX.",
+      "developer": "YAHBALLON",
+      "name": "PS5 GBCX",
+      "owner": "Yahballon",
+      "schema_version": "1.0",
+      "source_repo": "https://github.com/Yahballon/PS5GBCX",
+      "status": "registered",
+      "title_id": "PPSA99210"
+    },
+    {
+      "app_id": "io.github.yahballon.ps5clean",
+      "created": "2026-10-13",
+      "description": "Native PS5 homebrew tool: PS5 CLEAN.",
+      "developer": "YAHBALLON",
+      "name": "PS5 CLEAN",
+      "owner": "Yahballon",
+      "schema_version": "1.0",
+      "source_repo": "https://github.com/Yahballon/PS5CLEAN",
+      "status": "registered",
+      "title_id": "PPSA99338"
+    },
+    {
+      "app_id": "io.github.yahballon.crypto-tracker",
+      "created": "2026-10-13",
+      "description": "Native PS5 homebrew application: Crypto Tracker.",
+      "developer": "YAHBALLON",
+      "name": "Crypto Tracker",
+      "owner": "Yahballon",
+      "schema_version": "1.0",
+      "source_repo": "https://github.com/Yahballon/Crypto-Tracker",
+      "status": "registered",
+      "title_id": "PPSA99442"
+    },
+    {
+      "app_id": "io.github.yahballon.ps5-www-speedtest",
+      "created": "2026-10-13",
+      "description": "Native PS5 homebrew tool: WWW Speedtest.",
+      "developer": "YAHBALLON",
+      "name": "WWW Speedtest",
+      "owner": "Yahballon",
+      "schema_version": "1.0",
+      "source_repo": "https://github.com/Yahballon/PS5_WWW_SPEEDTEST",
+      "status": "registered",
+      "title_id": "PPSA99573"
+    },
+    {
       "app_id": "io.github.yahballon.payload-launcherx",
       "created": "2026-10-13",
       "description": "Native PS5 homebrew USB payload launcher.",
@@ -14,6 +110,6 @@
       "title_id": "PPSA99873"
     }
   ],
-  "count": 1,
+  "count": 9,
   "schema_version": "1.0"
 }
