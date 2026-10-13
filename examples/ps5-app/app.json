@@ -1,0 +1,8 @@
+{
+  "name": "Example Homebrew App",
+  "titleId": "PPSA12345",
+  "contentId": "UP9000-PPSA12345_00-EXAMPLEHOMEBREW00",
+  "version": "1.0.0",
+  "contentVersion": "01.000.000",
+  "homebrewIdentity": "io.github.exampledev.example-app"
+}

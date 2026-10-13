@@ -1,0 +1,36 @@
+name: Publish public registry index
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'registry/**'
+      - 'tools/build_index.py'
+      - 'tools/validate_registry.py'
+      - '.github/workflows/publish-index.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: phip-registry-main
+  cancel-in-progress: false
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Validate and generate registry index
+        run: |
+          python tools/validate_registry.py
+          python tools/build_index.py
+      - name: Commit generated indexes only when changed
+        run: |
+          git add REGISTRY.md index/registry.json index/stats.json
+          if git diff --cached --quiet; then
+            echo "Registry index is already up to date"
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: refresh public PHIP registry index'
+          git push origin HEAD:main

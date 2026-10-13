@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "title_id": "PPSA12345",
+  "app_id": "io.github.exampledev.example-app",
+  "name": "Example Homebrew App",
+  "developer": "Example Developer",
+  "owner": "exampledev",
+  "source_repo": "https://github.com/exampledev/example-app",
+  "status": "reserved",
+  "created": "2026-10-13",
+  "description": "This is documentation only: never copy the example ID into your app."
+}

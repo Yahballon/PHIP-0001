@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Yahballon/PHIP-0001/blob/main/schemas/registration.schema.json",
+  "title": "PHIP-0001 registration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "title_id",
+    "app_id",
+    "name",
+    "developer",
+    "owner",
+    "source_repo",
+    "status",
+    "created"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "title_id": {
+      "type": "string",
+      "pattern": "^PPSA[0-9]{5}$",
+      "not": {
+        "const": "PPSA99999"
+      }
+    },
+    "app_id": {
+      "type": "string",
+      "pattern": "^io\\.github\\.[a-z0-9-]+\\.[a-z0-9][a-z0-9-]*$",
+      "maxLength": 150
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "developer": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "owner": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$"
+    },
+    "source_repo": {
+      "type": "string",
+      "pattern": "^https://github\\.com/[A-Za-z0-9-]+/[A-Za-z0-9_.-]+$"
+    },
+    "status": {
+      "enum": [
+        "reserved",
+        "registered"
+      ]
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "license": {
+      "type": "string",
+      "maxLength": 80
+    }
+  }
+}

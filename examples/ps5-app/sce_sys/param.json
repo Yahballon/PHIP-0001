@@ -1,0 +1,10 @@
+{
+  "titleId": "PPSA12345",
+  "contentId": "UP9000-PPSA12345_00-EXAMPLEHOMEBREW00",
+  "contentVersion": "01.000.000",
+  "localizedParameters": {
+    "en-US": {
+      "titleName": "Example Homebrew App"
+    }
+  }
+}

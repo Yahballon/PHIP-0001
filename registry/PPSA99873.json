@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "title_id": "PPSA99873",
+  "app_id": "io.github.yahballon.payload-launcherx",
+  "name": "Payload LauncherX",
+  "developer": "YAHBALLON",
+  "owner": "Yahballon",
+  "source_repo": "https://github.com/Yahballon/PS5_Payload_LauncherX",
+  "status": "registered",
+  "created": "2026-10-13",
+  "description": "Native PS5 homebrew USB payload launcher.",
+  "license": "GPL-3.0-or-later"
+}

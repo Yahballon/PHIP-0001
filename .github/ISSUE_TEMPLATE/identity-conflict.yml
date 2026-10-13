@@ -1,0 +1,23 @@
+name: Identity conflict
+description: Report an app ID collision or suspected ownership mismatch
+title: "[Conflict] "
+labels: ["identity-conflict"]
+body:
+  - type: input
+    id: title_id
+    attributes:
+      label: Title ID
+      placeholder: PPSA12345
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link both projects and explain what conflicts.
+    validations:
+      required: true
+  - type: textarea
+    id: desired
+    attributes:
+      label: Proposed resolution
