@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "title_id": "PPSA99210",
+  "app_id": "io.github.yahballon.ps5-gbcx",
+  "name": "PS5 GBCX",
+  "developer": "YAHBALLON",
+  "owner": "Yahballon",
+  "source_repo": "https://github.com/Yahballon/PS5GBCX",
+  "status": "registered",
+  "created": "2026-10-13",
+  "description": "Native PS5 homebrew emulator: PS5 GBCX."
+}

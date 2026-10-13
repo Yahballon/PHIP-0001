@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "title_id": "PPSA99442",
+  "app_id": "io.github.yahballon.crypto-tracker",
+  "name": "Crypto Tracker",
+  "developer": "YAHBALLON",
+  "owner": "Yahballon",
+  "source_repo": "https://github.com/Yahballon/Crypto-Tracker",
+  "status": "registered",
+  "created": "2026-10-13",
+  "description": "Native PS5 homebrew application: Crypto Tracker."
+}

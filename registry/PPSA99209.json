@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "title_id": "PPSA99209",
+  "app_id": "io.github.yahballon.ps5-gbax",
+  "name": "PS5 GBAX",
+  "developer": "YAHBALLON",
+  "owner": "Yahballon",
+  "source_repo": "https://github.com/Yahballon/PS5GBAX",
+  "status": "registered",
+  "created": "2026-10-13",
+  "description": "Native PS5 homebrew emulator: PS5 GBAX."
+}
